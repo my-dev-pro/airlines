@@ -1,0 +1,18 @@
+{
+    "name": "mydev/airlines",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mydev\\Airlines\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed Youssef",
+            "email": "mydev@my-dev.pro"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
