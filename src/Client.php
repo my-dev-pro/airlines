@@ -4,7 +4,7 @@ namespace Mydev\Airlines;
 class Client
 {
     protected $session = null;
-
+    // function to get url
     public function get($url)
     {
         $this->session = curl_init();
