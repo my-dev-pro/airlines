@@ -5,6 +5,7 @@ class Client
 {
     protected $session = null;
 
+    // get funciton
     public function get($url)
     {
         $this->session = curl_init();
